@@ -1,0 +1,105 @@
+// @import "node_modules/bootstrap/scss/bootstrap";
+#delete-product-btn {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    box-shadow: 2px 3px 2px 2px;
+    height: 35px;
+    margin-top: -20px;
+}
+
+#add-product-btn {
+    @extend #delete-product-btn;
+    margin-right: 30px;
+    background-color: #90eea8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    align-self: center;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.buttons {
+    position: absolute;
+    right: 30px;
+    justify-content: flex-end;
+}
+
+.header-line {
+    font-weight: bold;
+    height: 2px;
+    background-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -15px;
+}
+
+.footer-line {
+    @extend .header-line;
+    margin-top: 30px;
+}
+
+.scandiweb-text {
+    font-family: comic-sans;
+    font-weight: bold;
+    // margin-top: 35px;
+}
+
+#addInput {
+    position: absolute;
+    left: 150px;
+    border-color: gray;
+    box-shadow: 1px 2px 1px 1px;
+    width: 200px;
+}
+
+#label-type {
+    font-weight: bold;
+    position: absolute;
+}
+
+#sku {
+    @extend #addInput;
+}
+
+#name {
+    @extend #addInput;
+}
+
+#price {
+    @extend #addInput;
+}
+
+#height {
+    @extend #addInput;
+}
+
+#weight {
+    @extend #addInput;
+}
+
+#width {
+    @extend #addInput;
+}
+
+#size {
+    @extend #addInput;
+}
+
+#length {
+    @extend #addInput;
+}
+
+#productType {
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    border-bottom: transparent;
+}

@@ -1,0 +1,25 @@
+// @import "node_modules/bootstrap/scss/bootstrap";
+.box {
+    border: 3px solid black;
+    width: 250px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.delete-checkboxes {
+    margin-left: 20px;
+    // outline: 2px solid black;
+}
+
+.box-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-style {
+    justify-content: space-between;
+    font-family: comic-sans;
+    font-weight: bold;
+}
